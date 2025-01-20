@@ -19,7 +19,7 @@
 			"type": "volume"
 		}
 	],
-	"postCreateCommand": "./.devcontainer/post-create.sh",
+	"postCreateCommand": "/root/post-create.sh",
 	"customizations": {
 		"vscode": {
 			"settings": {
