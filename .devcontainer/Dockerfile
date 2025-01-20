@@ -5,7 +5,7 @@ RUN chmod +x /root/install-vscode.sh
 RUN /root/install-vscode.sh
 
 # Ensure post-create.sh is executable
-ADD .devcontainer/post-create.sh /root/post-create.sh
+ADD post-create.sh /root/post-create.sh
 RUN chmod +x /root/post-create.sh
 
 RUN git config --system codespaces-theme.hide-status 1
