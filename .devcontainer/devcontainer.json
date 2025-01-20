@@ -19,7 +19,7 @@
 			"type": "volume"
 		}
 	],
-	"postCreateCommand": "./.devcontainer/post-create.sh",
+	"postCreateCommand": "chmod +x ./.devcontainer/post-create.sh && ./.devcontainer/post-create.sh",
 	"customizations": {
 		"vscode": {
 			"settings": {
